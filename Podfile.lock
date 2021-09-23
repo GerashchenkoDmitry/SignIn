@@ -1,0 +1,16 @@
+PODS:
+  - Navajo-Swift (2.1.0)
+
+DEPENDENCIES:
+  - Navajo-Swift
+
+SPEC REPOS:
+  trunk:
+    - Navajo-Swift
+
+SPEC CHECKSUMS:
+  Navajo-Swift: 57b93e73efbfbf452433efbff04402de56beff51
+
+PODFILE CHECKSUM: bbfa90ec79edfda5539e1abb86cfa025be503126
+
+COCOAPODS: 1.10.0

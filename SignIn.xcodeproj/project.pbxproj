@@ -3,23 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9806801524FE3A57EE01FC4C /* Pods_SignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC6D17B435E7120AB59508B /* Pods_SignIn.framework */; };
 		DF08494226DCA58900614964 /* SignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08494126DCA58900614964 /* SignInApp.swift */; };
 		DF08494426DCA58900614964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08494326DCA58900614964 /* ContentView.swift */; };
 		DF08494626DCA59100614964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF08494526DCA59100614964 /* Assets.xcassets */; };
 		DF08494926DCA59100614964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF08494826DCA59100614964 /* Preview Assets.xcassets */; };
+		DF08495226DCA77D00614964 /* SEGOEUI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = DF08495126DCA77D00614964 /* SEGOEUI.TTF */; };
+		DF3501A926DE2A5A00A9D5EC /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = DF3501A826DE2A5A00A9D5EC /* iPhoneNumberField */; };
+		DF3501B326DF876300A9D5EC /* font-map-segoe-ui.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3501B126DF876300A9D5EC /* font-map-segoe-ui.png */; };
+		DF3501B426DF876300A9D5EC /* font-map-unicode-segoe-ui.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3501B226DF876300A9D5EC /* font-map-unicode-segoe-ui.png */; };
+		DF3501BE26E6098B00A9D5EC /* UnderlineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501BD26E6098B00A9D5EC /* UnderlineTextFieldView.swift */; };
+		DF3501C126E9010800A9D5EC /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501C026E9010800A9D5EC /* PasswordView.swift */; };
+		DF3501C426E9058300A9D5EC /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */; };
+		DF3501CA26EB623F00A9D5EC /* UserInteractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501C926EB623E00A9D5EC /* UserInteractable.swift */; };
+		DF4F459326F87EED00F3EBFE /* PhoneNumberUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F459226F87EED00F3EBFE /* PhoneNumberUITextField.swift */; };
+		DF6DFDFB26EF40D000701A5A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DFDFA26EF40D000701A5A /* Model.swift */; };
+		DF6DFE0026EF4ACE00701A5A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DFDFF26EF4ACE00701A5A /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BC6D17B435E7120AB59508B /* Pods_SignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED8CD087F95194FF984D839 /* Pods-SignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn.debug.xcconfig"; path = "Target Support Files/Pods-SignIn/Pods-SignIn.debug.xcconfig"; sourceTree = "<group>"; };
+		5D10FBC57A37C1FA7B53FA7E /* Pods-SignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn.release.xcconfig"; path = "Target Support Files/Pods-SignIn/Pods-SignIn.release.xcconfig"; sourceTree = "<group>"; };
 		DF08493E26DCA58900614964 /* SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF08494126DCA58900614964 /* SignInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApp.swift; sourceTree = "<group>"; };
 		DF08494326DCA58900614964 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF08494526DCA59100614964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF08494826DCA59100614964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF08494A26DCA59100614964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF08495126DCA77D00614964 /* SEGOEUI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEGOEUI.TTF; sourceTree = "<group>"; };
+		DF3501B126DF876300A9D5EC /* font-map-segoe-ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font-map-segoe-ui.png"; sourceTree = "<group>"; };
+		DF3501B226DF876300A9D5EC /* font-map-unicode-segoe-ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font-map-unicode-segoe-ui.png"; sourceTree = "<group>"; };
+		DF3501BD26E6098B00A9D5EC /* UnderlineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldView.swift; sourceTree = "<group>"; };
+		DF3501C026E9010800A9D5EC /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
+		DF3501C926EB623E00A9D5EC /* UserInteractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractable.swift; sourceTree = "<group>"; };
+		DF4F459226F87EED00F3EBFE /* PhoneNumberUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberUITextField.swift; sourceTree = "<group>"; };
+		DF6DFDFA26EF40D000701A5A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DF6DFDFF26EF4ACE00701A5A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +52,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3501A926DE2A5A00A9D5EC /* iPhoneNumberField in Frameworks */,
+				9806801524FE3A57EE01FC4C /* Pods_SignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4BDA48E50EF6ECF7EAB975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ED8CD087F95194FF984D839 /* Pods-SignIn.debug.xcconfig */,
+				5D10FBC57A37C1FA7B53FA7E /* Pods-SignIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3426D69E1A52896A45720DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC6D17B435E7120AB59508B /* Pods_SignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF07C88926F09D5A008006C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF6DFDFF26EF4ACE00701A5A /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF07C88A26F09D6B008006C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF08494326DCA58900614964 /* ContentView.swift */,
+				DF3501BD26E6098B00A9D5EC /* UnderlineTextFieldView.swift */,
+				DF3501C026E9010800A9D5EC /* PasswordView.swift */,
+				DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */,
+				DF4F459226F87EED00F3EBFE /* PhoneNumberUITextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF07C88B26F09D83008006C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF6DFDFA26EF40D000701A5A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DF08493526DCA58800614964 = {
 			isa = PBXGroup;
 			children = (
 				DF08494026DCA58900614964 /* SignIn */,
 				DF08493F26DCA58900614964 /* Products */,
+				0E4BDA48E50EF6ECF7EAB975 /* Pods */,
+				B3426D69E1A52896A45720DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +126,14 @@
 		DF08494026DCA58900614964 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				DF07C88B26F09D83008006C2 /* Model */,
+				DF07C88A26F09D6B008006C2 /* Views */,
 				DF08494126DCA58900614964 /* SignInApp.swift */,
-				DF08494326DCA58900614964 /* ContentView.swift */,
+				DF07C88926F09D5A008006C2 /* ViewModels */,
+				DF3501C926EB623E00A9D5EC /* UserInteractable.swift */,
+				DF08495126DCA77D00614964 /* SEGOEUI.TTF */,
+				DF3501B126DF876300A9D5EC /* font-map-segoe-ui.png */,
+				DF3501B226DF876300A9D5EC /* font-map-unicode-segoe-ui.png */,
 				DF08494526DCA59100614964 /* Assets.xcassets */,
 				DF08494A26DCA59100614964 /* Info.plist */,
 				DF08494726DCA59100614964 /* Preview Content */,
@@ -76,15 +156,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF08494D26DCA59100614964 /* Build configuration list for PBXNativeTarget "SignIn" */;
 			buildPhases = (
+				CC87C9A9CAF582F498B57CF6 /* [CP] Check Pods Manifest.lock */,
 				DF08493A26DCA58900614964 /* Sources */,
 				DF08493B26DCA58900614964 /* Frameworks */,
 				DF08493C26DCA58900614964 /* Resources */,
+				F3EC1C507E07D87C888629FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SignIn;
+			packageProductDependencies = (
+				DF3501A826DE2A5A00A9D5EC /* iPhoneNumberField */,
+			);
 			productName = SignIn;
 			productReference = DF08493E26DCA58900614964 /* SignIn.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +197,9 @@
 				Base,
 			);
 			mainGroup = DF08493526DCA58800614964;
+			packageReferences = (
+				DF3501A726DE2A5A00A9D5EC /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
 			productRefGroup = DF08493F26DCA58900614964 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,19 +215,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF08494926DCA59100614964 /* Preview Assets.xcassets in Resources */,
+				DF3501B326DF876300A9D5EC /* font-map-segoe-ui.png in Resources */,
 				DF08494626DCA59100614964 /* Assets.xcassets in Resources */,
+				DF08495226DCA77D00614964 /* SEGOEUI.TTF in Resources */,
+				DF3501B426DF876300A9D5EC /* font-map-unicode-segoe-ui.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC87C9A9CAF582F498B57CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EC1C507E07D87C888629FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn/Pods-SignIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn/Pods-SignIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignIn/Pods-SignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF08493A26DCA58900614964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6DFDFB26EF40D000701A5A /* Model.swift in Sources */,
 				DF08494426DCA58900614964 /* ContentView.swift in Sources */,
+				DF6DFE0026EF4ACE00701A5A /* UserViewModel.swift in Sources */,
+				DF4F459326F87EED00F3EBFE /* PhoneNumberUITextField.swift in Sources */,
+				DF3501CA26EB623F00A9D5EC /* UserInteractable.swift in Sources */,
+				DF3501C426E9058300A9D5EC /* PhoneNumberTextField.swift in Sources */,
+				DF3501C126E9010800A9D5EC /* PasswordView.swift in Sources */,
 				DF08494226DCA58900614964 /* SignInApp.swift in Sources */,
+				DF3501BE26E6098B00A9D5EC /* UnderlineTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +404,7 @@
 		};
 		DF08494E26DCA59100614964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED8CD087F95194FF984D839 /* Pods-SignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +427,7 @@
 		};
 		DF08494F26DCA59100614964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D10FBC57A37C1FA7B53FA7E /* Pods-SignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF3501A726DE2A5A00A9D5EC /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF3501A826DE2A5A00A9D5EC /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF3501A726DE2A5A00A9D5EC /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF08493626DCA58800614964 /* Project object */;
 }
