@@ -115,9 +115,7 @@ final class UserViewModel: ObservableObject {
   }
   
   init() {
-    
-    // It is user validation, not Email validation
-    
+        
     isEmailValidPublisher
       .receive(on: RunLoop.main)
       .map { valid in

@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct SignInApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  
+  @StateObject var userAuth = UserAuth()
+  
+  var body: some Scene {
+    WindowGroup {
+      if userAuth.isLoggedIn {
+        ContentView()
+          .environmentObject(userAuth)
+        
+      } else {
+        LoginView()
+          .environmentObject(userAuth)
+        
+      }
     }
+  }
 }

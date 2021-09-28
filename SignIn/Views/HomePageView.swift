@@ -1,14 +1,13 @@
 //
-//  ContentView.swift
+//  HomePageView.swift
 //  SignIn
 //
-//  Created by Дмитрий Геращенко on 30.08.2021.
+//  Created by Дмитрий Геращенко on 28.09.2021.
 //
 
 import SwiftUI
-import Combine
 
-struct ContentView: View {
+struct HomePageView: View {
   
   @EnvironmentObject var userAuth: UserAuth
   
@@ -26,13 +25,11 @@ struct ContentView: View {
         }
       }
     }
-    .transition(.slide)
   }
-  
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomePageView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    HomePageView()
   }
 }

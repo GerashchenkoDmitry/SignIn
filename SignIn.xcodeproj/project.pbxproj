@@ -21,6 +21,9 @@
 		DF3501C426E9058300A9D5EC /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */; };
 		DF3501CA26EB623F00A9D5EC /* UserInteractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3501C926EB623E00A9D5EC /* UserInteractable.swift */; };
 		DF4F459326F87EED00F3EBFE /* PhoneNumberUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F459226F87EED00F3EBFE /* PhoneNumberUITextField.swift */; };
+		DF4F45B527031A7000F3EBFE /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F45B427031A7000F3EBFE /* UserAuth.swift */; };
+		DF4F45B827031B3800F3EBFE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F45B727031B3800F3EBFE /* LoginView.swift */; };
+		DF4F45BC27033F6500F3EBFE /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F45BB27033F6500F3EBFE /* HomePageView.swift */; };
 		DF6DFDFB26EF40D000701A5A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DFDFA26EF40D000701A5A /* Model.swift */; };
 		DF6DFE0026EF4ACE00701A5A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6DFDFF26EF4ACE00701A5A /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +46,9 @@
 		DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
 		DF3501C926EB623E00A9D5EC /* UserInteractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractable.swift; sourceTree = "<group>"; };
 		DF4F459226F87EED00F3EBFE /* PhoneNumberUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberUITextField.swift; sourceTree = "<group>"; };
+		DF4F45B427031A7000F3EBFE /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		DF4F45B727031B3800F3EBFE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF4F45BB27033F6500F3EBFE /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		DF6DFDFA26EF40D000701A5A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DF6DFDFF26EF4ACE00701A5A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				DF08494326DCA58900614964 /* ContentView.swift */,
+				DF4F45BB27033F6500F3EBFE /* HomePageView.swift */,
+				DF4F45B727031B3800F3EBFE /* LoginView.swift */,
 				DF3501BD26E6098B00A9D5EC /* UnderlineTextFieldView.swift */,
 				DF3501C026E9010800A9D5EC /* PasswordView.swift */,
 				DF3501C326E9058300A9D5EC /* PhoneNumberTextField.swift */,
@@ -101,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DF6DFDFA26EF40D000701A5A /* Model.swift */,
+				DF4F45B427031A7000F3EBFE /* UserAuth.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,9 +135,9 @@
 		DF08494026DCA58900614964 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				DF08494126DCA58900614964 /* SignInApp.swift */,
 				DF07C88B26F09D83008006C2 /* Model */,
 				DF07C88A26F09D6B008006C2 /* Views */,
-				DF08494126DCA58900614964 /* SignInApp.swift */,
 				DF07C88926F09D5A008006C2 /* ViewModels */,
 				DF3501C926EB623E00A9D5EC /* UserInteractable.swift */,
 				DF08495126DCA77D00614964 /* SEGOEUI.TTF */,
@@ -273,12 +282,15 @@
 			files = (
 				DF6DFDFB26EF40D000701A5A /* Model.swift in Sources */,
 				DF08494426DCA58900614964 /* ContentView.swift in Sources */,
+				DF4F45B527031A7000F3EBFE /* UserAuth.swift in Sources */,
 				DF6DFE0026EF4ACE00701A5A /* UserViewModel.swift in Sources */,
 				DF4F459326F87EED00F3EBFE /* PhoneNumberUITextField.swift in Sources */,
 				DF3501CA26EB623F00A9D5EC /* UserInteractable.swift in Sources */,
 				DF3501C426E9058300A9D5EC /* PhoneNumberTextField.swift in Sources */,
 				DF3501C126E9010800A9D5EC /* PasswordView.swift in Sources */,
+				DF4F45B827031B3800F3EBFE /* LoginView.swift in Sources */,
 				DF08494226DCA58900614964 /* SignInApp.swift in Sources */,
+				DF4F45BC27033F6500F3EBFE /* HomePageView.swift in Sources */,
 				DF3501BE26E6098B00A9D5EC /* UnderlineTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
